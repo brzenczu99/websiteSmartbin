@@ -1,0 +1,73 @@
+body
+{
+	<!--background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Triangle-blue.svg/2000px-Triangle-blue.svg.png"); -->
+	color: #efefef;
+   font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Regular.otf);
+    
+}
+.produkt{
+    font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Regular.otf);
+    font-size: 20px;
+    text-align: left;
+}
+.lp{
+    font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Regular.otf);
+    font-size: 20px;
+    text-align: center;
+}
+.szt{
+    font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Regular.otf);
+    font-size: 20px;
+    text-align: center;
+}
+.naglowek{
+    font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Bold.otf);
+    font-size: 30px;
+}
+.logining{
+    font-family: 'Ciutadella', sans-serif;
+    src:url(Ciutadella-Regular.otf);
+    font-size:25px;
+    text-align: left;
+    padding-top: 8vh;
+}
+footer{
+  padding: 1vh 0 0.9vh;
+    margin-top: 4.3vh;
+}
+.footer img{
+    
+}
+.mainmenu img
+{
+	width: 30%;
+    height: auto;
+	
+}
+
+.productlist {
+  
+    height:58.8vh;
+    overflow-y: scroll;
+    margin-top: 6.3vh;
+}
+.navbar
+{
+	min-height: 5.7vh;
+}
+
+.btna{
+	background-color: transparent; 
+    border: none;
+}
+.btns{
+    height: 1000vh;
+}
+.podkreslenie img{
+    width: 100%;
+}
