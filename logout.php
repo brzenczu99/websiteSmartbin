@@ -4,6 +4,6 @@
 	
 	session_unset();
 	
-	header('Location: D:/xampp/htdocs/smartbin/login.html');
+	header('Location: D:/xampp/htdocs/smartbin/index.php');
 
 ?>

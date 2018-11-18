@@ -9,27 +9,403 @@
 	}
 	
 ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Osadnicy - gra przeglądarkowa</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Smartbin</title>
+	<meta name="description" content="Smartbin website">
+	<meta name="keywords" content="smartbin, recycle, shopping list">
+	<meta name="author" content="Bartłomiej Brzenczek">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
 </head>
 
 <body>
-	
-<?php
+	<main>
+		<div class="container-fluid">
+           
+                <header class="bg-primary text-white mainmenu">
+                  <div class="container text-center">
+                      
+                        <img src="img/smartbin_pop.png"  class="img-responsive">
+             
+                       
+                  </div>
+                    
+                </header>
+			     
+                
+                <div class="container">			
+				
+               
+                    <div class="row">
+                        <nav class="navbar navbar-expand-sm navbar-white bg-light fixed-top " id="mainNav">
+                            <div class="container">
+                                <div class="col-sm-1 col-md-1 offset-sm-2"><a class="navbar-brand js-scroll-trigger naglowek" href="#page-top">Lp.</a>
+                                </div>
+                                <div class="col-sm-2 col-md-2"><a class="navbar-brand js-scroll-trigger naglowek" href="#page-top">Nazwa</a>
+                                </div>
+                                <div class="col-sm-2 col-md-2"><a class="navbar-brand js-scroll-trigger naglowek" href="#page-top">Ilość sztuk</a>
+                                </div>
+                            </div>
+                        </nav> 
+                        <div class="col-sm-10 col-md-10 offset-md-1 bg-white">
+                            <ul class="nav table productlist">
+                                <div class="container">
+                                    
+                                        <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>1</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Cukier</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>2</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                           <div class="col-sm-11 col-md-11 offset-1 podkreslenie">  
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>  
+                                    
+                                           <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>2</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Kasza jaglana</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>2</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                           <div class="col-sm-11 col-md-11 offset-1 podkreslenie">  
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>3</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Papier do pieczenia</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>4</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Folia aluminiowa</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>5</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Pieprz</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>6</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Wafelki</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>3</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                           <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>7</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Czekolada</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>4</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                       <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>8</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Cukier wanilinowy</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>2</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                           <div class="col-sm-11 col-md-11 offset-1 podkreslenie">  
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>9</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Jajka</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>5</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>10</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Mleko</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>2</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div>                 
+                                    <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>11</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Margaryna</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>3</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> 
+                     <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>12</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Kefir</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>13</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Marchewka</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>9</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>14</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Ziemniaki</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>15</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Musztarda</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>2</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>16</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Chleb</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>1</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> <div class="row">
+                                            <div class="col-sm-1 col-md-1 offset-sm-1 lp"><a>17</a>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 produkt"><a>Woda mineralna</a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 szt mainmenu"> 
+                                                <button class="btn btna"><img src="img/remove.png" class="img-responsive" style="btns">
+                                                </button>
+                                                    <a>6</a>
+                                                <button class="btn btna"><img src="img/add.png" class="img-responsive" style="btns">
+                                                </button>
+                                                
+                                            </div>
+                                          <div class="col-sm-11 col-md-11 offset-1 podkreslenie"> 
+                                                <img src="img/Bez%20nazzzwy.png" class="img-responsive" style="podkreslenie">
+                                                
+                                            </div> 
+                                        </div> 
+                                    
+                                </div>
+                            </ul>
+                        </div>			
+                    </div>	
+                    
+                </div>
+                <footer class="bg-primary text-white mainmenu">
 
-	echo "<p>Witaj ".$_SESSION['user'].'! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
-	echo "<p><b>Drewno</b>: ".$_SESSION['drewno'];
-	echo " | <b>Kamień</b>: ".$_SESSION['kamien'];
-	echo " | <b>Zboże</b>: ".$_SESSION['zboze']."</p>";
+                   <div class=row>
+                       <div class="col-sm-2 col-md-2 offset-1">            
+                            <button class="btn btna"><img src="img/speech-bubble%20(1).png" class="img-responsive">
+                            </button>
+                       </div>
+                       <div class="col-sm-2 col-md-2 offset-2">            
+                            <button class="btn btna"><img src="img/add-button-inside-black-circle%20(1).png" class="img-responsive" style="btns">
+                            </button>
+                       </div>
+                          <div class="col-sm-2 col-md-2 offset-2">            
+                            <button class="btn btna"><img src="img/logout%20(1).png" class="img-responsive" style="btns">
+                            </button>
+                       </div>
+                    </div>
+
+                </footer>
+         
+        </div>
+    </main>
 	
-	echo "<p><b>E-mail</b>: ".$_SESSION['email'];
-	echo "<br /><b>Dni premium</b>: ".$_SESSION['dnipremium']."</p>";
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	
-?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+        <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+	
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

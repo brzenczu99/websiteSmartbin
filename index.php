@@ -4,8 +4,9 @@
 	
 	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
-		header('Location: D:/xampp/htdocs/smartbin/index.html');
+		echo file_get_contents("D:/xampp/htdocs/smartbin/gra.php");
 		exit();
+        
 	}
 
 ?>

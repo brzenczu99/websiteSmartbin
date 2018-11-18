@@ -45,7 +45,7 @@
 				
 				unset($_SESSION['blad']);
 				$rezultat->free_result();
-				header('Location: smartbin.html');
+				header('Location: gra.php');
 				
 			} else {
 				

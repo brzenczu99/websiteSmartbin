@@ -66,8 +66,11 @@ footer{
     border: none;
 }
 .btns{
-    height: 1000vh;
+    height: 1vh;
 }
 .podkreslenie img{
     width: 100%;
+}
+.settinges{
+padding: 3vh 0 0.9vh;
 }
